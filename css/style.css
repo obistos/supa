@@ -1,0 +1,36 @@
+body{
+    font-family: arial;
+    overflow: hidden;
+    height: 100vh;
+}
+
+h1{
+    color: #aaa;
+    text-align: center;
+    margin:0;
+    padding: 30px;
+}
+h1 b{
+    color: #666;
+}
+
+.ob-section{
+    margin-bottom: 0;
+    height: 100vh;
+}
+
+.image{
+    /*border: 1px solid #ccc;
+    padding: 50px;*/
+    margin: 0;
+    height: 100vh;
+}
+
+.image img {
+    width: 100%;
+    height: 100vh;
+}
+
+.image.selected{
+    border: 1px solid red;
+}
